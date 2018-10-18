@@ -1,25 +1,16 @@
-# ReduxSimpleStarter
+# Simple Youtube
 
-Interested in learning [Redux](https://www.udemy.com/react-redux/)?
+Updated Project (using create-react-app) for [Modern React with Redux](https://www.udemy.com/react-redux/) Udemy course by [Stephen Grider](https://github.com/StephenGrider)
 
-### Getting Started
+## Getting Started
 
-There are two methods for getting started with this repo.
+To get up and started:
 
-#### Familiar with Git?
-Checkout this repo, install dependencies, then start the gulp process with the following:
+1. Clone repo
+2. `npm install`
+3. Obtain a [Youtube API Key](https://console.cloud.google.com/apis/library/youtube.googleapis.com?filter=category%3Ayoutube) and paste it in `src/index.js`
+3. Start npm server with `npm start`
 
-```
-> git clone https://github.com/StephenGrider/ReduxSimpleStarter.git
-> cd ReduxSimpleStarter
-> npm install
-> npm start
-```
+## Live View
 
-#### Not Familiar with Git?
-Click [here](https://github.com/StephenGrider/ReactStarter/releases) then download the .zip file.  Extract the contents of the zip file, then open your terminal, change to the project directory, and:
-
-```
-> npm install
-> npm start
-```
+A live version can be found at `https://andyduss.com/simple-youtube`
