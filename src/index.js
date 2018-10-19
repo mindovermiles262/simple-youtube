@@ -7,7 +7,8 @@ import SearchBar from './components/searchBar';
 import VideoList from './components/videoList';
 import VideoDetail from './components/videoDetail'
 
-const API_KEY = '[API KEY]'
+require('dotenv').config()
+const API_KEY = process.env.REACT_APP_YT
 
 class App extends Component {
   constructor(props) {
